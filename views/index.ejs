@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form action="/add" method="post">
+        <input type="text" name="text" placeholder="Add new todo">
+        <button type="submit">Add</button>
+    </form>
+    <ul>
+        <% todos.forEach(function(todo) { %>
+            <li><%= todo.text %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

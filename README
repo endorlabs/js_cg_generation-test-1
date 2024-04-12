@@ -1,0 +1,1 @@
+With the codebase as-is, the jsa crashes, but if app.js is renamed to index.js, then jsa runs till completion.
